@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", sans-serif;
+}
+.wrapper {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+.backToVehicleBtn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #353658;
+  cursor: pointer;
+}
+.saveEditBtn {
+  display: flex;
+  gap: 10px;
+}
+.editBtn {
+  background: #353658;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  cursor: pointer;
+}
+.saveBtn {
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  color: #353658;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  cursor: pointer;
+  border: 2px solid #353658;
+}
+
+.primeryCard {
+  background: #ffffff;
+  box-shadow: 0px 3px 2px #e5e5e5;
+  border-radius: 9px;
+  width: 100%;
+}
+.carImage {
+  max-width: 50%;
+  min-width: fit-content;
+  height: auto;
+  background: #e5e5e5;
+  border-radius: 9px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carImage img {
+  width: 90%;
+  height: auto;
+  margin: 31px;
+}
