@@ -42,7 +42,7 @@
   padding: 8px 16px;
   color: #ffffff;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 100%;
   cursor: pointer;
 }
@@ -55,7 +55,7 @@
   padding: 8px 16px;
   color: #353658;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 100%;
   cursor: pointer;
   border: 2px solid #353658;
@@ -77,12 +77,17 @@
   max-width: 50%;
   min-width: fit-content;
   height: auto;
-  background: #e5e5e5;
+  /* background: #e5e5e5; */
+  background: #353658;
+
   border-radius: 9px;
   /* margin: 10px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: inset 4px 8px 27px rgba(0, 0, 0, 0.35);
+  filter: drop-shadow(1px 4px 12px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(6px);
 }
 .carImage img {
   width: 90%;
@@ -106,24 +111,25 @@ tr {
   border-radius: 9px;
 }
 tr:nth-child(odd) {
+  color: rgb(36, 36, 36);
   background-color: #e5e5e5;
 }
 td {
-  padding: 11px 16px;
+  padding: 8px 16px;
 }
 td:nth-child(odd) {
-  font-family: Poppins;
+  /* font-family: Poppins; */
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 100%;
   border-radius: 6px 0 0 6px;
 }
 td:nth-child(even) {
-  font-family: Poppins;
+  /* font-family: Poppins; */
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 100%;
   border-radius: 0 6px 6px 0;
 }
@@ -185,7 +191,7 @@ td:nth-child(even) {
     width: 80%;
   }
   .carPrimeryData {
-    width: 90%;
+    width: 100%;
   }
 }
 @media (max-width: 520px) {
